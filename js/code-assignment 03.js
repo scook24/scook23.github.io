@@ -1,13 +1,19 @@
-let projectId = 1
-let projectTitle = "Story Map"
-let projectUrl = 'http://arcg.is/2n5E9Jf'
-let projectDesc = 'Book Assignment 1: Web Story map of RJ, Brasil'
-let projectThumb = true
-let projectMapExtent = [48.51, -28.37, 2.63, -132.34]
+let projectArray = [
+  1,
+  'http://arcg.is/2n5E9Jf'
+  'Book Assignment 1: Web Story map of RJ, Brasil'
+  'Story Map'
+  true
+  ['web story map','arcgis']
+]
 
-console.log('ID: ' + projectId)
-console.log('URL: ' + projectUrl)
-console.log('Title: ' + projectTitle)
-console.log('Description: ' + projectDesc)
-console.log('Has thumbnail? ' + projectThumb)
-console.log('Map extent: ' + projectMapExtent)
+let projectObject= {
+  id:1,
+  url:'http://arcg.is/2n5E9Jf'
+  title: 'Story Map'
+description 'Book Assignment 1: Web Story map of RJ, Brasil'
+hasthumbnail: true,
+keywords: ['web story map','usgs']
+}
+
+console.log(projectArray)
