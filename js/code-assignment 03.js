@@ -5,7 +5,7 @@ let projectArray = [
   'Story Map'
   true
   ['web story map','arcgis']
-]
+
 
 let projectObject= {
   id:1,

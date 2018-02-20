@@ -1,19 +1,14 @@
-body {font-family: Helvetica, sans-serif;
-font-size: 1em}
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 1em
+}
 
 .subtitle { color: #808080 }
 #masthead { text-align: center;}
-}
 
 .thumbnail {
   width: 300
   height: 250
-}
-/* Display article thumbnails and descriptions side by side in a grid */
-article {
-  display: grid;
-  grid: "img meta" auto / 200px auto;
-  margin-bottom: 20px;
 }
 
 /* Use this class on a div that contains the img element */
