@@ -9,16 +9,3 @@ body {
 .thumbnail {
   width: 300px;
   height: 250px
-}
-
-/* Use this class on a div that contains the img element */
-.article-img {
-  grid-area: img;
-  justify-self: center;
-}
-
-/* Use this class on a div that contains the description, link, etc. */
-.article-meta {
-  grid-area: meta;
-  align-self: start;
-}
