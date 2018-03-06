@@ -5,7 +5,6 @@ let projects = [ {
   desc: 'Book Assignment 1: Web Story map of RJ, Brasil',
   thumb: true,
   keywords: ['web story map','Brasil','arcgis']
-
 },
 {
   id:2,
@@ -16,6 +15,10 @@ let projects = [ {
   keywords: ['USGS','earthquakes','arcgis online']
   }]
 
-for (let i=0; i < projects.length; i++) {
-
+for (let i = 0; i < projects.length; i++) {
+  if (projects[i].thumb === true) {
+    console.log ('image/ic_launcher.PNG')
+  } else {
+    console.log ('image/no-preview.PNG')
+  }
 }
