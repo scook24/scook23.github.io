@@ -2,9 +2,9 @@ let mypumpmap = L.map('pumpmapid').setView([30.01628,-90.069496], 18)
 L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}.').addTo(mypumpmap)
 
 let station = L.icon({
-  iconUrl: 'pumpingstation-bw.png',
-  iconSize: [38, 50], // size of the icon
-  iconAnchor: [22, 94], // point of the icon which will correspond to marker's location
+  iconUrl: 'Pump-Stations_color.png',
+  iconSize: [50, 50], // size of the icon
+  iconAnchor: [25, 25], // point of the icon which will correspond to marker's location
   popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
 })
 
