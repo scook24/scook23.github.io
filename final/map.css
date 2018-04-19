@@ -1,1 +1,12 @@
 #pumpmapid { height: 400px }
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 1em
+  text-align: center;
+}
+
+#masthead {
+  text-align: center;
+}
+
+.subtitle { color: #808080 }
