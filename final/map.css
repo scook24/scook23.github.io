@@ -1,4 +1,5 @@
-#pumpmapid { height: 400px }
+#pumpmapid { height: 400px;
+              width : 75%;}
 body {
   font-family: Helvetica, sans-serif;
   font-size: 1em
