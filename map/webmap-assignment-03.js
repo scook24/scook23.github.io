@@ -1,4 +1,4 @@
-let mypumpmap = L.map('pumpmapid').setView([30.01628,-90.069496], 18)
+let mypumpmap = L.map('pumpmapid').setView([30.01628,-90.069496], 15)
 L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}.').addTo(mypumpmap)
 
 let station = L.icon({
